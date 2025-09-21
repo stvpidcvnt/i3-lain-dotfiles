@@ -1,0 +1,42 @@
+# ~/.config/alacritty/alacritty.toml
+# Ash Bellett
+
+[window.padding]
+x = 24
+y = 24
+
+[font.normal]
+
+
+[colors.primary]
+background = "#0F111A"
+foreground = "#8F93A2"
+
+[colors.normal]
+black = "#0F111A"
+red = "#FF5370"
+green = "#99C794"
+yellow = "#C4E88D"
+blue = "#82AAFF"
+magenta = "#C792EA"
+cyan = "#89DDFF"
+white = "#464B5D"
+
+[colors.bright]
+black = "#0F111A"
+red = "#FF5370"
+green = "#99C794"
+yellow = "#C4E88D"
+blue = "#82AAFF"
+magenta = "#C792EA"
+cyan = "#89DDFF"
+white = "#8F93A2"
+
+[cursor.style]
+shape = "Underline"
+blinking = "Always"
+
+[cursor]
+blink_interval = 500
+unfocused_hollow = false  # Ensures the cursor stays visible and doesn't revert to a block
+
